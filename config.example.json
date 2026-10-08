@@ -1,0 +1,11 @@
+{
+  "input_csv": "data/estoque.csv",
+  "dry_run": true,
+  "webhook_url_env": "OPERATIONS_WEBHOOK_URL",
+  "columns": {
+    "sku": "sku",
+    "description": "descricao",
+    "quantity": "saldo_atual",
+    "minimum": "estoque_minimo"
+  }
+}
